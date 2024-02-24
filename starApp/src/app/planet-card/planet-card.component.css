@@ -1,0 +1,58 @@
+
+.card {
+  width: calc(25% - 20px);
+  margin: 10px;
+  box-sizing: border-box;
+  border: 1px solid #a9b727;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  background-color: gray
+  
+}
+  .card:last-child {
+    margin-right: 0;
+  }
+
+.card-body {
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  margin-bottom: 5px;
+}
+
+  .card-text:last-child {
+    margin-bottom: 0;
+  }
+
+.residents-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.resident-item {
+  margin-bottom: 10px;
+}
+
+  .resident-item p {
+    margin: 0;
+  }
+
+.resident-name {
+  font-weight: bold;
+}
+
+.resident-details {
+  margin-left: 20px;
+}
+/* destination-card.component.css */
+
+
+

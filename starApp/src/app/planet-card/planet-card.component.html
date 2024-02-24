@@ -1,0 +1,19 @@
+
+<div class="card" >
+  <div class="card-body" >
+    <h5 class="card-title">{{ planet.name }}</h5>
+    <p class="card-text">Climate: {{ planet.climate }}</p>
+    <p class="card-text">Population: {{ planet.population }}</p>
+    <p class="card-text">Terrain: {{ planet.terrain }}</p>
+    <p class="card-text">Residents:</p>
+    <ul>
+      <li *ngFor="let resident of planet.resData">
+        <p>Name: {{ resident.name }}</p>
+        <p>Height: {{ resident.height }}</p>
+        <p>Mass: {{ resident.mass }}</p>
+        <p>Gender: {{ resident.gender }}</p>
+      </li>
+    </ul>
+  </div>
+</div>
+
